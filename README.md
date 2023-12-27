@@ -1,12 +1,13 @@
 # Landing-Page-for-Restaurant-Menu
 
-## Getting Started
+##Technologies Used
 
-this project is developed with : 
--react with typescript
--node js
--mongodb
--tailwind
+This project was developed using the following technologies:
+
+React with TypeScript
+Node.js
+MongoDB
+Tailwind CSS
 
 ### Prerequisites
 
