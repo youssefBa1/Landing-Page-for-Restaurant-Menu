@@ -30,9 +30,9 @@ const MenuSection: React.FC<MenuSectionProps> = ({ sectionName, dishesData }) =>
     };
 
     return (
-        <div className="my-10 mx-10 w-full">
-            <h2 className="text-green-600 text-6xl mb-4" style={{ fontFamily: 'Juno Semicondensed' }}>{sectionName}</h2>
-            <div className="grid grid-cols-5 gap-8 w-full">
+        <div className="my-10 mx-10 w-full mr-10">
+            <h2 className="text-green-600 text-6xl mb-4 ml-10" style={{ fontFamily: 'Juno Semicondensed' }}>{sectionName}</h2>
+            <div className="grid grid-cols-5 gap-8 w-full ml-10 ">
                 {dishesData.slice(0, visibleCards).map((data, index) => (
                     <DishCard key={index} dishName={data.dishName} price={data.price} imageUrl={data.imageUrl} />
                 ))}

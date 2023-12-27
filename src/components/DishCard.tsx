@@ -8,7 +8,7 @@ interface DishCardProps {
 
 const DishCard: React.FC<DishCardProps> = ({ dishName, price, imageUrl }) => {
     return (
-        <div className=" bg-white rounded-lg overflow-hidden flex flex-col ">
+        <div className=" bg-white rounded-lg overflow-hidden flex flex-col  ">
             <img src={imageUrl} alt={dishName} className="w-[100%] h-48 object-cover rounded-lg" />
 
             <div className="flex flex-col items-start p-4">

@@ -1,12 +1,15 @@
-import Heading from "./components/Heading";
-import Menu from "./components/Menu";
-import Form from "./components/Form";
+
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom"
+import Main from "./views/main";
+import AdminDashboard from "./views/Admin";
 export default function App() {
   return (
-    <div className="max-w-screen overflow-hidden">
-      <Heading></Heading>
-      <Menu></Menu>
-      <Form></Form>
-    </div>
+    <Router>
+      <Routes>
+        <Route path="/" element={<Main></Main>}></Route>
+        <Route path="/admin" element={<AdminDashboard></AdminDashboard>}></Route>
+
+      </Routes>
+    </Router>
   )
 }
