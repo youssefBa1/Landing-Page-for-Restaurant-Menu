@@ -4,9 +4,9 @@
 
 This project was developed using the following technologies:
 
-React with TypeScript
-Node.js
-MongoDB
+React with TypeScript,
+Node.js,
+MongoDB,
 Tailwind CSS
 
 ### Prerequisites
