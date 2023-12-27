@@ -2,6 +2,12 @@
 
 ## Getting Started
 
+this project is developed with : 
+-react with typescript
+-node js
+-mongodb
+-tailwind
+
 ### Prerequisites
 
 Make sure you have the following installed on your machine:
