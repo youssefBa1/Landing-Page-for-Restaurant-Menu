@@ -31,10 +31,10 @@ npm install
 npm run dev
 ```
 in another terminal tab
-```bash
+```bash 
 cd backend
 nodemon app.js
 ```
 
 
-
+b
